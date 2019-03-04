@@ -64,3 +64,144 @@ Then just reboot your computer
 
 
 
+---# **Working With Processes**
+
+
+Use the following shortcuts to manage running processes.
+
+
+**_Ctrl+C_**: Interrupt (kill) the current foreground process running in in the terminal. This sends the SIGINT signal to the process, which is technically just a request—most processes will honor it, but some may ignore it.
+
+---
+
+-**_Ctrl+Z_**: Suspend the current foreground process running in bash. This sends the SIGTSTP signal to the process. To return the process to the foreground later, use the fg process_name command.
+
+---
+
+**_Ctrl+D_**: Close the bash shell. This sends an EOF (End-of-file) marker to bash, and bash exits when it receives this marker. This is similar to running the exit command.
+
+---
+
+# **Controlling the Screen**
+_The following shortcuts allow you to control what appears on the screen._
+
+---
+
+**_Ctrl+L:_** Clear the screen. This is similar to 
+running the “clear” command.
+
+---
+
+**_Ctrl+S:_** Stop all output to the screen. This is particularly useful when running commands with a lot of long, verbose output, but you don’t want to stop the command itself with Ctrl+C.
+
+---
+
+**_Ctrl+Q:_** Resume output to the screen after stopping it with Ctrl+S.
+Moving the Cursor
+Use the following shortcuts to quickly move the cursor around the current line while typing a command.
+
+---
+
+**_Ctrl+A or Home:_** Go to the beginning of the line.
+
+---
+
+**_Ctrl+E or End:_** Go to the end of the line.
+
+---
+
+**_Alt+B:_** Go left (back) one word.
+
+---
+
+**_Ctrl+B:_** Go left (back) one character.
+
+---
+
+**_Alt+F:_** Go right (forward) one word.
+
+---
+
+**_Ctrl+F:_** Go right (forward) one character.
+
+---
+
+**_Ctrl+XX:_** Move between the beginning of the line and the current position of the cursor. This allows you to press Ctrl+XX to return to the start of the line, change something, and then press Ctrl+XX to go back to your original cursor position. To use this shortcut, hold the Ctrl key and tap the X key twice.
+
+---
+
+ **Deleting Text**
+
+Use the following shortcuts to quickly delete characters:
+
+**_Ctrl+D or Delete:_** Delete the character under the cursor.
+
+---
+
+**_Alt+D:_** Delete all characters after the cursor on the current line.
+
+**_Ctrl+H or Backspace:_** Delete the character before the cursor.
+
+---
+
+# **Fixing Typos**
+
+These shortcuts allow you to fix typos and undo your key presses.
+
+**_Alt+T:_** Swap the current word with the previous word.
+
+---
+
+**_Ctrl+T:_** Swap the last two characters before the cursor with each other. You can use this to quickly fix typos when you type two characters in the wrong order.
+
+**Ctrl+_:** Undo your last key press. You can repeat this to undo multiple times.
+Cutting and Pasting
+Bash includes some basic cut-and-paste features.
+
+---
+
+**_Ctrl+W:_** Cut the word before the cursor, adding it to the clipboard.
+
+**_Ctrl+K:_** Cut the part of the line after the cursor, adding it to the clipboard.
+
+**_Ctrl+U:_** Cut the part of the line before the cursor, adding it to the clipboard.
+
+---
+
+**_Ctrl+Y:_** Paste the last thing you cut from the clipboard. The y here stands for “yank”.
+
+---
+
+# Capitalizing Characters
+
+The bash shell can quickly convert characters to upper or lower case:
+
+---
+
+**_Alt+U:_** Capitalize every character from the cursor to the end of the current word, converting the characters to upper case.
+
+---
+
+**_Alt+L:_** Uncapitalize every character from the cursor to the end of the current word, converting the characters to lower case.
+
+---
+
+**_Alt+C:_** Capitalize the character under the cursor. Your cursor will move to the end of the current word.
+
+
+---
+
+
+# Tab Completion
+
+RELATED: Use Tab Completion to Type Commands Faster on Any Operating System
+
+Tab completion is a very useful bash feature. 
+
+While typing a file, directory, or command name, press Tab and bash will automatically complete what you’re typing, if possible. If not, bash will show you various possible matches and you can continue typing and pressing Tab to finish typing.
+
+---
+
+**_Tab: Automatically complete the file, directory, or command you’re typing._**
+
+
