@@ -1,0 +1,66 @@
+
+###### **Customize your command Line**
+
+![](https://i.imgur.com/Gts9L40.jpg)
+
+---
+
+>Right click on the blank screen ---> Click on **Preferences**
+>
+
+---
+
+![](https://i.imgur.com/ge76yHs.jpg)
+
+---
+
+**Preferences Settings**
+
+Click on the current profile, and start customizing
+
+   * Font
+   * Allow blinking text
+   * Cursor 
+
+---
+
+**Changing the command line colors**
+
+![](https://i.imgur.com/mNRl9Jm.jpg)
+
+---
+
+**Git commands change colors**
+
+We need to open the gitconfig file,
+to do so we will write nano
+**~/.gitconfig**
+
+---
+
+###### Copy and customize 
+###### it can take up to 2 color values and 1 value of style
+
+![](https://i.imgur.com/hWFjqST.jpg)
+
+---
+
+**Change your hostname**
+
+You could do that in two ways
+         
+          * Write in terminal for a one boot
+>`hostname NEW_NAME_HERE `
+>
+          
+          * Write in terminal for a permanently change
+>`sudo gedit /etc/hostname /etc/hosts`
+>
+
+---
+
+Then just reboot your computer
+
+
+
+
