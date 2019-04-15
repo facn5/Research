@@ -22,7 +22,3 @@ Research day should be thought of as a [spike](http://www.extremeprogramming.org
 * Cross Site Scripting (XSS)
 * Cross Site Request Forgery (CSRF)
 * How can you defend against each of them?
-### Stateless vs stateful authentication
-* What is session based authentication (stateful) vs token based authentication (stateless)?
-* Draw flow diagrams to show the steps involved in each process
-* What are the advantages and disadvantages of each?
